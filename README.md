@@ -33,6 +33,29 @@ Key features planned:
 
 ---
 
+---
+
+## 🌿 Git Workflow
+
+Cipherlink uses **Git Flow** optimized for phased development:
+
+- **`main`**: Production-ready, stable code
+- **`develop`**: Integration branch for ongoing development
+- **`feature/phase-{N}-*`**: Feature branches (e.g., `feature/phase-1-socks5`)
+- **`release/v*`**: Release preparation branches
+- **`hotfix/*`**: Critical security/bug fixes
+
+📖 **Full workflow documentation**: See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+### Quick Branch Creation
+
+```bash
+# Create a feature branch (automatically from develop)
+./scripts/create-feature-branch.sh phase-1-socks5
+```
+
+---
+
 ## ⚙️ Quick Start (Phase 1 – Encrypted Proxy)
 
 Generate keys:

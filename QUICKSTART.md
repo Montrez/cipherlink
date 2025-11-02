@@ -73,8 +73,26 @@ pytest tests/test_crypto.py
 
 ## Next Steps
 
-1. Review the existing modules in `common/` to understand the crypto and protocol layers
-2. Implement the client/server connection logic in `client/proxy.py` and `server/proxy.py`
-3. Add unit tests as you develop new features
-4. Check the README.md for detailed project goals and backlog
+1. **📖 Read the Networking Documentation** (if implementing client/server):
+   - Start with [`docs/networking/README.md`](docs/networking/README.md)
+   - Comprehensive guide covering TCP, asyncio, and our architecture
+   - Step-by-step implementation walkthrough included
+
+2. Review the existing modules in `common/` to understand the crypto and protocol layers
+3. Implement the client/server connection logic in `client/proxy.py` and `server/proxy.py`
+4. Add unit tests as you develop new features
+5. Check the README.md for detailed project goals and backlog
+
+## Learning Resources
+
+### Networking Documentation
+
+If you're working on the client/server connection, we have comprehensive documentation:
+
+- **[Networking Fundamentals](docs/networking/01-NETWORKING-FUNDAMENTALS.md)** - TCP sockets, client-server model, asyncio basics
+- **[Architecture Overview](docs/networking/02-ARCHITECTURE.md)** - System design and data flow
+- **[Implementation Guide](docs/networking/03-IMPLEMENTATION-GUIDE.md)** - Step-by-step code walkthrough
+- **[Asyncio Reference](docs/networking/04-ASYNCIO-REFERENCE.md)** - Quick reference for asyncio networking
+
+Start with [`docs/networking/README.md`](docs/networking/README.md) for a complete learning path!
 
