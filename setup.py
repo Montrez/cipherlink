@@ -25,6 +25,8 @@ setup(
     entry_points={
         "console_scripts": [
             "cipherlink-genkeys=scripts.genkeys:main",
+            "cipherlink-server=scripts.run_server:main",
+            "cipherlink-client=scripts.run_client:main",
         ],
     },
     classifiers=[

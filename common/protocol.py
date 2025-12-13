@@ -3,7 +3,7 @@ Protocol definitions for packet structure and framing.
 """
 
 import struct
-from typing import Optional
+from typing import Optional, Tuple
 
 
 # Protocol constants
